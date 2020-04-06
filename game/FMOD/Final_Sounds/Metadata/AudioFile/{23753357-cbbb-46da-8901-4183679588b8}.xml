@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{23753357-cbbb-46da-8901-4183679588b8}">
+		<property name="assetPath">
+			<value>menu-hover.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.047029478458049889</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28dcc538-6753-4900-979e-5886aded5b3d}</destination>
+		</relationship>
+	</object>
+</objects>

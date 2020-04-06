@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{08d0beba-4d38-4f1a-8cac-b2136472c5cf}">
+		<property name="assetPath">
+			<value>gate-close.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.43006802721088433</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28dcc538-6753-4900-979e-5886aded5b3d}</destination>
+		</relationship>
+	</object>
+</objects>

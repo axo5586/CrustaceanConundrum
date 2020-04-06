@@ -1,0 +1,10 @@
+X Block
+Z Block
+Button to open gates 
+Gate Block
+X Tunnel blocks
+Z Tunnel blocks
+Key Block
+End Block
+
+https://trello.com/b/C9Vb5J0G/crustacean-conundrum
