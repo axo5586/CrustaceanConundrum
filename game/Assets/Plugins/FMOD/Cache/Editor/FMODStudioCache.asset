@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/move-object
   guid: 0a024ce29707094381900133fc9821ce
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -37,8 +36,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/gravel-walk
   guid: e97c95a56d2df541b8fd8ccc53b317a4
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -66,6 +64,60 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1134
   Exists: 1
+--- !u!114 &-7605070531825142390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223390539833930
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7120605704769556350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223444972631415
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6898570930504120848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223451539640794
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6792364286089590967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +135,48 @@ MonoBehaviour:
   lastModified: 637217395484759325
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &-6504623359632048994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223446026318056
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6225953991460353584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/beach-waves
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/beach-waves
+  guid: 663b90bac5e3234ca2cda17e138fe90e
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 25539
 --- !u!114 &-6120246200188486646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +200,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &-6006081685542391642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/menu-click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/menu-click
+  guid: ded1d26e1efec444bfa8b4347e03f0b1
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 100
 --- !u!114 &-5525869334503203987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +241,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-5404490056499007184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5003770888741521267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +281,47 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &-4986105977408511358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/button-unactivated
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/button-unactivated
+  guid: 7b32a415c85d954a8f1e04d3efa53f1c
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &-4835198113605959194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223390558588119
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4586408745147642715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +345,47 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3795
+--- !u!114 &-4500281387461506016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/gate-close
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/gate-close
+  guid: 3c35a2197f91414b8f093ca305b6b6ac
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &-4153231480115720980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223281201695094
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4098245836684578317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +409,41 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &-3897782483990763586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3476051406300433121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223400419550389
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2905775511309166074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,8 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/menu-click
   guid: ded1d26e1efec444bfa8b4347e03f0b1
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -217,6 +466,174 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &-1673489519765213357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/button-unactivated
+  m_EditorClassIdentifier: 
+  Path: event:/button-unactivated
+  guid: 7b32a415c85d954a8f1e04d3efa53f1c
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &-1480412056158469165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223456455506686
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-984944698635618967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223446423513487
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-842505276206578681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/button-activated
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/button-activated
+  guid: a498019f937deb45b1cc6e34e1ec91df
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &-715521412356349125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/gate-open
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/gate-open
+  guid: 683276ed4dad104794d5716e8a770c76
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 160
+--- !u!114 &-252452733065229732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/background-music
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/background-music
+  guid: 3f68c8188828f54e93e9391412b1695f
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 215000
+--- !u!114 &-216737866907991493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/level-complete
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/level-complete
+  guid: ae7aec39efc46a4195041c5fd1f620f2
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-144150701326487513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223282460997398
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,24 +648,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8226104174938382396}
-  - {fileID: -6792364286089590967}
+  - {fileID: -1480412056158469165}
   EditorEvents:
-  - {fileID: -8584899718265722223}
-  - {fileID: 6506392571801316336}
-  - {fileID: 5448117869596303186}
-  - {fileID: 6048545904477015944}
-  - {fileID: 5270177840222106019}
-  - {fileID: 1079993618971211926}
-  - {fileID: 5516672217186840338}
-  - {fileID: -2905775511309166074}
-  - {fileID: -8017452637254820264}
+  - {fileID: 7035185549729475614}
+  - {fileID: 4451247215503366620}
+  - {fileID: -4500281387461506016}
+  - {fileID: -6225953991460353584}
+  - {fileID: -715521412356349125}
+  - {fileID: -4986105977408511358}
+  - {fileID: -842505276206578681}
+  - {fileID: -216737866907991493}
+  - {fileID: -6006081685542391642}
+  - {fileID: 3271490069013058353}
+  - {fileID: -252452733065229732}
+  - {fileID: 3253469206514034260}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6792364286089590967}
+  - {fileID: -1480412056158469165}
   StringsBanks:
   - {fileID: 8226104174938382396}
-  stringsBankWriteTime: 637217395484809346
+  stringsBankWriteTime: 637223456455566699
   cacheVersion: 3
+--- !u!114 &578760826609755574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223446770027725
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &678815361577046954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &1079993618971211926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,8 +718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/button-activated
   guid: a498019f937deb45b1cc6e34e1ec91df
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -272,6 +726,59 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &1994608036269044014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223422915788167
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2212261403735693265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &2372979439764662077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223447146618262
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2530911168383530698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +802,53 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &3253469206514034260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/gravel-walk-param
+  m_EditorClassIdentifier: 
+  Path: event:/Character/gravel-walk-param
+  guid: e97c95a56d2df541b8fd8ccc53b317a4
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2212261403735693265}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &3271490069013058353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/gravel-walk
+  m_EditorClassIdentifier: 
+  Path: event:/Character/gravel-walk
+  guid: b14c274532f5214b95d7adce38062d3e
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &3501162122905053307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,6 +867,64 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3572448689430433787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3616820297099020993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223448684830799
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4451247215503366620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/menu-hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/menu-hover
+  guid: 2fe1391b0124d848b025a8f293b0fad5
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 100
 --- !u!114 &4538955777887340445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,8 +962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/gate-open
   guid: 683276ed4dad104794d5716e8a770c76
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -373,8 +984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/gate-close
   guid: 3c35a2197f91414b8f093ca305b6b6ac
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -396,8 +1006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/level-complete
   guid: ae7aec39efc46a4195041c5fd1f620f2
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -419,8 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/beach-waves
   guid: 663b90bac5e3234ca2cda17e138fe90e
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -428,6 +1036,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 25539
+--- !u!114 &6097228583810218651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6376404443268621949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,8 +1090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/menu-hover
   guid: 2fe1391b0124d848b025a8f293b0fad5
-  Banks:
-  - {fileID: -6792364286089590967}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -474,6 +1098,47 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &7035185549729475614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/move-object
+  m_EditorClassIdentifier: 
+  Path: event:/Character/move-object
+  guid: 0a024ce29707094381900133fc9821ce
+  Banks:
+  - {fileID: -1480412056158469165}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3795
+--- !u!114 &7089115045129718005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637223281829466841
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8226104174938382396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,11 +1153,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Final_Sounds/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637217395484809346
+  lastModified: 637223456455566699
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1134
+    Value: 1368
   Exists: 1
 --- !u!114 &8294091963064455559
 MonoBehaviour:

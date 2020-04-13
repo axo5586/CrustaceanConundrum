@@ -46,7 +46,14 @@ public class MovingBlockX : MonoBehaviour
             rigidbody.velocity = Vector3.zero;
         }
 
+        /*if (rigidbody.velocity != Vector2.zero)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/move-object", transform.position);
+        }*/
+
         rigidbody.velocity = Vector3.zero;
+
+        
     }
 
 

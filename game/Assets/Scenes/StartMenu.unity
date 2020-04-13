@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-hover
+  Event: event:/UI/menu-hover
   PlayEvent: 13
   StopEvent: 14
   AllowFadeout: 1
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-click
+  Event: event:/UI/menu-click
   PlayEvent: 15
   StopEvent: 16
   AllowFadeout: 1
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-hover
+  Event: event:/UI/menu-hover
   PlayEvent: 13
   StopEvent: 14
   AllowFadeout: 1
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-click
+  Event: event:/UI/menu-click
   PlayEvent: 15
   StopEvent: 16
   AllowFadeout: 1
@@ -550,6 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433124596}
   - component: {fileID: 1433124595}
+  - component: {fileID: 1433124597}
   - component: {fileID: 1433124594}
   m_Layer: 0
   m_Name: Main Camera
@@ -558,14 +559,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1433124594
-AudioListener:
+--- !u!114 &1433124594
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433124593}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Ambience/beach-waves
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!20 &1433124595
 Camera:
   m_ObjectHideFlags: 0
@@ -623,6 +639,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1433124597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433124593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1 &2012556162
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-click
+  Event: event:/UI/menu-click
   PlayEvent: 15
   StopEvent: 16
   AllowFadeout: 1
@@ -782,7 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-hover
+  Event: event:/UI/menu-hover
   PlayEvent: 13
   StopEvent: 14
   AllowFadeout: 1

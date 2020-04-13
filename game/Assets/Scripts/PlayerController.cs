@@ -6,8 +6,11 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private bool isX;
     private bool key;
+   
     [SerializeField]
     private float speed;
+    private float doubleSpeed;
+    public bool shiftPressed;
     [SerializeField]
     private float leashX;
     [SerializeField]
@@ -31,6 +34,7 @@ public class PlayerController : MonoBehaviour {
         offsets = new List<Vector3>(2);
         key = false;
         GetComponent<Rigidbody2D>().freezeRotation = true;
+        doubleSpeed = 1;
     }
 	
 	// Update is called once per frame
@@ -38,15 +42,26 @@ public class PlayerController : MonoBehaviour {
     {
         // Make this a class attribute and run GetComponent in Start
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            doubleSpeed = 2;
+            shiftPressed = true;
+}
+        else
+        {
+            doubleSpeed = 1;
+            shiftPressed = false;
+        }
+
         if (isX)
         {
             if (Input.GetKey(KeyCode.RightArrow) /*|| Input.GetKey(KeyCode.D)*/)
             {
-                rigidbody.velocity = direction* Time.deltaTime * speed;
+                rigidbody.velocity = direction* Time.deltaTime * speed * doubleSpeed;
             }
             else if (Input.GetKey(KeyCode.LeftArrow) /*|| Input.GetKey(KeyCode.A)*/)
             {
-                rigidbody.velocity = direction * Time.deltaTime * -speed;
+                rigidbody.velocity = direction * Time.deltaTime * -speed * doubleSpeed;
             }
             else
             {
@@ -84,12 +99,12 @@ public class PlayerController : MonoBehaviour {
         {
             if (/*Input.GetKey(KeyCode.UpArrow) ||*/ Input.GetKey(KeyCode.W))
             {
-                rigidbody.velocity = direction * Time.deltaTime * speed;
+                rigidbody.velocity = direction * Time.deltaTime * speed * doubleSpeed;
             }
             else if (/*Input.GetKey(KeyCode.DownArrow) ||*/ Input.GetKey(KeyCode.S))
             {
                 //print("hi");
-                rigidbody.velocity = direction * Time.deltaTime * -speed;
+                rigidbody.velocity = direction * Time.deltaTime * -speed * doubleSpeed;
             }
             else
             {
@@ -113,10 +128,14 @@ public class PlayerController : MonoBehaviour {
             }
             if (Input.GetButton("Fire2"))
             {
-                for (int i = 0; i < connectedPlayers.Count; ++i)
+                if (connectedPlayers.Count >= 0)
                 {
-                    connectedPlayers[i].transform.position = offsets[i] + transform.position;
+                    for (int i = 0; i < connectedPlayers.Count; ++i)
+                    {
+                        connectedPlayers[i].transform.position = offsets[i] + transform.position;
+                    }
                 }
+                
             }
             else
             {

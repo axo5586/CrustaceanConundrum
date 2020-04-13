@@ -265,6 +265,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34ebadf23b5232040a246514251a117a, type: 3}
+--- !u!114 &198111502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114438548328969194, guid: 34ebadf23b5232040a246514251a117a,
+    type: 3}
+  m_PrefabInstance: {fileID: 198111501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b57278a8953464bb84094b658250a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &493995501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -381,14 +393,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
+--- !u!114 &519420029
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -563,7 +580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/level-complete
+  Event: event:/Interactables/level-complete
   PlayEvent: 2
   StopEvent: 0
   AllowFadeout: 1
@@ -801,7 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-click
+  Event: event:/UI/menu-click
   PlayEvent: 15
   StopEvent: 16
   AllowFadeout: 1
@@ -824,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-hover
+  Event: event:/UI/menu-hover
   PlayEvent: 13
   StopEvent: 14
   AllowFadeout: 1
@@ -978,6 +995,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17db7bb1de98923479e48f21e872a1fe, type: 3}
+--- !u!114 &1035095430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114635184566238488, guid: 17db7bb1de98923479e48f21e872a1fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1035095429}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b57278a8953464bb84094b658250a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1084220106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1091,9 +1120,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/button-activated
-  PlayEvent: 7
-  StopEvent: 8
+  Event: event:/Interactables/button-activated
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1237999836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237999834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/button-unactivated
+  PlayEvent: 6
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -1237,7 +1289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-click
+  Event: event:/UI/menu-click
   PlayEvent: 15
   StopEvent: 16
   AllowFadeout: 1
@@ -1260,7 +1312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/menu-hover
+  Event: event:/UI/menu-hover
   PlayEvent: 13
   StopEvent: 14
   AllowFadeout: 1
@@ -1300,8 +1352,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8cec7611e62acd4e82235cc652a8c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSound: event:/gravel-walk
-  walkingSpeed: 0.3
+  inputSound: event:/Character/gravel-walk
+  playerIsMoving: 0
+  leftShiftPressed: 0
+  players:
+  - {fileID: 1035095430}
+  - {fileID: 198111502}
+  speedParam: 0
 --- !u!114 &1552546420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,7 +1372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/beach-waves
+  Event: event:/Ambience/beach-waves
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
