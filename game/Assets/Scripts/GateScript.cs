@@ -42,7 +42,7 @@ public class GateScript : MonoBehaviour
         gateOpenOnce = false;
         gateCloseOnce = false;
         openSceneGate = true;
-        openSound = FMODUnity.RuntimeManager.CreateInstance("event:/gate-open");
+        openSound = FMODUnity.RuntimeManager.CreateInstance("event:/Interactables/gate-open");
     }
 	
 	// Update is called once per frame
@@ -50,13 +50,13 @@ public class GateScript : MonoBehaviour
     {
         Opened = Triggers.All(button => button.Pressed);
 
-        if (opened == true && !gateOpenOnce)
+        if (opened == true && gateOpenOnce == false)
         {
             playGateOpen();
             gateOpenOnce = true;
         }
 
-        if (opened == false && !gateCloseOnce)
+        if (opened == false && gateCloseOnce == true)
         {
             playGateClose();
             gateCloseOnce = true;
@@ -67,14 +67,14 @@ public class GateScript : MonoBehaviour
 
     void playGateOpen()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/gate-open", transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Interactables/gate-open", transform.position);
         //openSound.start();
         //openSound.stop();
     }
 
     void playGateClose()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/gate-close", transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Interactables/gate-close", transform.position);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

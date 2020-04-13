@@ -25,13 +25,13 @@ public class Footsteps : MonoBehaviour
     void Start()
     {
         speedParam = .4f;
-        InvokeRepeating("CallFootsteps", 0, speedParam);
+        //InvokeRepeating("CallFootsteps", 0, speedParam);
         footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Character/gravel-walk");
-        /*footsteps.start();
+        //footsteps.start();
         footsteps.setParameterByName("speed", speedParam);
-        footstepsDescription = FMODUnity.RuntimeManager.GetEventDescription("event:/Character/gravel-walk");
-        footstepsDescription.getParameterDescriptionByName("speed", out pd);
-        pID = pd.id;*/
+        //footstepsDescription = FMODUnity.RuntimeManager.GetEventDescription("event:/Character/gravel-walk");
+        //footstepsDescription.getParameterDescriptionByName("speed", out pd);
+        //pID = pd.id;
        
 
     }
@@ -63,6 +63,7 @@ public class Footsteps : MonoBehaviour
         }
 
         ParamChange();
+        CallFootsteps();
     }
 
     void CallFootsteps()
@@ -70,12 +71,12 @@ public class Footsteps : MonoBehaviour
         if (playerIsMoving == true)
         {
 
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Character/gravel-walk");
-            //footsteps.start();
+            //FMODUnity.RuntimeManager.PlayOneShot("event:/Character/gravel-walk");
+            footsteps.start();
         }
         if(playerIsMoving == false)
         {
-            
+            //footsteps.stop(fade)
         }
     }
 
@@ -83,14 +84,14 @@ public class Footsteps : MonoBehaviour
     {
         if(leftShiftPressed == true)
         {
-            speedParam = .2f;
+            speedParam = 1f;
         }
         else
         {
-            speedParam = 0.4f;
+            speedParam = 0.6f;
         }
 
-        //footsteps.setParameterByName("speed", speedParam);
+        footsteps.setParameterByName("speed", speedParam);
     }
 
     void OnDisable()

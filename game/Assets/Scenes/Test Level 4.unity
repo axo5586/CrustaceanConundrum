@@ -1573,13 +1573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8cec7611e62acd4e82235cc652a8c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSound: event:/Character/gravel-walk
+  inputSound: event:/Character/gravel-walk-param
   playerIsMoving: 0
   leftShiftPressed: 0
   players:
   - {fileID: 1890071650}
   - {fileID: 792113782}
-  walkingSpeed: 1
   speedParam: 0.4
 --- !u!1001 &1557349097
 PrefabInstance:
