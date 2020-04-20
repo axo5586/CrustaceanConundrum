@@ -8,6 +8,7 @@ public class Footsteps : MonoBehaviour
     public string inputSound;
     public bool playerIsMoving;
     public bool leftShiftPressed;
+    public float secondsPassed;
     public PlayerController[] players;
 
    
@@ -24,9 +25,9 @@ public class Footsteps : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speedParam = .4f;
+        speedParam = 0.0f;
         //InvokeRepeating("CallFootsteps", 0, speedParam);
-        footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Character/gravel-walk");
+        footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Character/gravel-walk-param");
         //footsteps.start();
         footsteps.setParameterByName("speed", speedParam);
         //footstepsDescription = FMODUnity.RuntimeManager.GetEventDescription("event:/Character/gravel-walk");
@@ -62,8 +63,33 @@ public class Footsteps : MonoBehaviour
             }
         }
 
+        incrementTime();
+      
+        if(speedParam == 1f)
+        {
+            if (secondsPassed >= .2f)
+            {
+                CallFootsteps();
+                secondsPassed = 0.0f;
+            }
+        }
+        if (speedParam == .6f)
+        {
+            if (secondsPassed >= .4f)
+            {
+                CallFootsteps();
+                secondsPassed = 0.0f;
+            }
+        }
+
         ParamChange();
-        CallFootsteps();
+
+
+    }
+
+    void incrementTime()
+    {
+        secondsPassed += Time.deltaTime;
     }
 
     void CallFootsteps()
@@ -77,6 +103,7 @@ public class Footsteps : MonoBehaviour
         if(playerIsMoving == false)
         {
             //footsteps.stop(fade)
+            speedParam = 0f;
         }
     }
 
@@ -86,7 +113,7 @@ public class Footsteps : MonoBehaviour
         {
             speedParam = 1f;
         }
-        else
+        else if (playerIsMoving)
         {
             speedParam = 0.6f;
         }

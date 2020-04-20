@@ -207,9 +207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8cec7611e62acd4e82235cc652a8c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSound: event:/Character/gravel-walk
+  inputSound: event:/Character/gravel-walk-param
   playerIsMoving: 0
   leftShiftPressed: 0
+  secondsPassed: 0
   players:
   - {fileID: 1035095430}
   - {fileID: 198111502}
@@ -538,7 +539,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854264397}
-  - component: {fileID: 854264396}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -546,18 +546,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &854264396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854264395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeaa985e2c69cde429f466d34dab1817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &854264397
 Transform:
   m_ObjectHideFlags: 0

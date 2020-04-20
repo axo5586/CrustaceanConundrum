@@ -332,9 +332,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8cec7611e62acd4e82235cc652a8c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSound: event:/Character/gravel-walk
+  inputSound: event:/Character/gravel-walk-param
   playerIsMoving: 0
   leftShiftPressed: 0
+  secondsPassed: 0
   players:
   - {fileID: 582985426}
   - {fileID: 1959443827}

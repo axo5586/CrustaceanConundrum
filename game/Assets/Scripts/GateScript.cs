@@ -7,9 +7,8 @@ using UnityEngine.SceneManagement;
 public class GateScript : MonoBehaviour
 {
     private bool opened;
-    public bool gateOpenOnce;
-    public bool gateCloseOnce;
-    public bool openSceneGate;
+    public bool gateOpenState;
+    public bool newGateState;
     FMOD.Studio.EventInstance openSound;
 
 
@@ -30,38 +29,36 @@ public class GateScript : MonoBehaviour
         private set
         {
             opened = value;
-            GetComponent<SpriteRenderer>().sprite = value ? OpenedSprite : NotOpenedSprite;
+            
             //playedOnce = !playedOnce;
         }
     }
     [SerializeField]
     public ButtonScript[] Triggers;
+
 	// Use this for initialization
 	void Start () 
     {
-        gateOpenOnce = false;
-        gateCloseOnce = false;
-        openSceneGate = true;
+        gateOpenState = false;
         openSound = FMODUnity.RuntimeManager.CreateInstance("event:/Interactables/gate-open");
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        Opened = Triggers.All(button => button.Pressed);
-
-        if (opened == true && gateOpenOnce == false)
+        opened = Triggers.All(button => button.Pressed);
+        GetComponent<SpriteRenderer>().sprite = gateOpenState ? OpenedSprite : NotOpenedSprite;
+        newGateState = opened;
+        if(gateOpenState != newGateState)
         {
             playGateOpen();
-            gateOpenOnce = true;
+            gateOpenState = newGateState;
         }
-
-        if (opened == false && gateCloseOnce == true)
+        if ((gateOpenState == true) != newGateState)
         {
             playGateClose();
-            gateCloseOnce = true;
+            gateOpenState = newGateState;
         }
-
 
     }
 

@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: f1b22cb775db252448e960caa6d1f042
+  - enabled: 1
+    path: Assets/Scenes/Volume Controls.unity
+    guid: a2d97174ec65f4e4ba4a74cb9131e096
   m_configObjects: {}
