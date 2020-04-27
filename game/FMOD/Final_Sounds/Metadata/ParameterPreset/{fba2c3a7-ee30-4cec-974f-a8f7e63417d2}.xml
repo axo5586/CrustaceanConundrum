@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{fba2c3a7-ee30-4cec-974f-a8f7e63417d2}">
+		<property name="name">
+			<value>seagulls</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2701af6f-1205-45a4-b320-8014c9eec35a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{baf52a04-2f9b-479e-b1a8-5f31ac645253}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{baf52a04-2f9b-479e-b1a8-5f31ac645253}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

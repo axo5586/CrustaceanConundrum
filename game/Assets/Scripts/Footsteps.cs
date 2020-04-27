@@ -7,6 +7,8 @@ public class Footsteps : MonoBehaviour
     [FMODUnity.EventRef]
     public string inputSound;
     public bool playerIsMoving;
+    public bool playerXIsMoving;
+    public bool playerYIsMoving;
     public bool leftShiftPressed;
     public float secondsPassed;
     public PlayerController[] players;
@@ -14,11 +16,11 @@ public class Footsteps : MonoBehaviour
    
 
     public FMOD.Studio.EventInstance footsteps;
+    public FMOD.Studio.EventInstance footstepsY;
     public FMOD.Studio.EventDescription footstepsDescription;
-    public FMOD.Studio.PARAMETER_DESCRIPTION pd;
-    public FMOD.Studio.PARAMETER_ID pID;
 
     public float speedParam;
+    public float speedParamY;
 
 
 
@@ -26,14 +28,11 @@ public class Footsteps : MonoBehaviour
     void Start()
     {
         speedParam = 0.0f;
-        //InvokeRepeating("CallFootsteps", 0, speedParam);
+        speedParamY = 0.0f;
         footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/Character/gravel-walk-param");
-        //footsteps.start();
-        footsteps.setParameterByName("speed", speedParam);
-        //footstepsDescription = FMODUnity.RuntimeManager.GetEventDescription("event:/Character/gravel-walk");
-        //footstepsDescription.getParameterDescriptionByName("speed", out pd);
-        //pID = pd.id;
-       
+        footstepsY = FMODUnity.RuntimeManager.CreateInstance("event:/Character/gravel-walk-param-2");
+        footsteps.setParameterByName("speed", speedParam); 
+        footstepsY.setParameterByName("speed2", speedParamY);
 
     }
 
@@ -41,15 +40,26 @@ public class Footsteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if moving, player is moving.
-        if (Input.GetAxis("Vertical") >= 0.01f || Input.GetAxis("Horizontal") >= 0.01f || Input.GetAxis("Vertical") <= -0.01f || Input.GetAxis("Horizontal") <= -0.01f)
+        //if moving horizontally, player is moving on X-axis.
+        if (Input.GetAxis("Horizontal") >= 0.01f || Input.GetAxis("Horizontal") <= -0.01f)
         {
-            playerIsMoving = true;
+            playerXIsMoving = true;
         }
-        else if (Input.GetAxis("Vertical") == 0 || Input.GetAxis("Horizontal") == 0)
+        else if (Input.GetAxis("Horizontal") == 0)
         {
-            playerIsMoving = false;
+            playerXIsMoving = false;
         }
+
+        //if moving vertically, player is moving on Y-axis.
+        if (Input.GetAxis("Vertical") >= 0.01f || Input.GetAxis("Vertical") <= -0.01f)
+        {
+            playerYIsMoving = true;
+        }
+        else if (Input.GetAxis("Vertical") == 0)
+        {
+            playerYIsMoving = false;
+        }
+
 
         for (int i = 0; i < players.Length; i++)
         {
@@ -65,7 +75,7 @@ public class Footsteps : MonoBehaviour
 
         incrementTime();
       
-        if(speedParam == 1f)
+        if(speedParam == .8f || speedParamY == .7f)
         {
             if (secondsPassed >= .2f)
             {
@@ -73,7 +83,7 @@ public class Footsteps : MonoBehaviour
                 secondsPassed = 0.0f;
             }
         }
-        if (speedParam == .6f)
+        if (speedParam == .5f || speedParamY == .4f)
         {
             if (secondsPassed >= .4f)
             {
@@ -94,35 +104,60 @@ public class Footsteps : MonoBehaviour
 
     void CallFootsteps()
     {
-        if (playerIsMoving == true)
+        if (playerXIsMoving == true)
         {
-
-            //FMODUnity.RuntimeManager.PlayOneShot("event:/Character/gravel-walk");
             footsteps.start();
         }
-        if(playerIsMoving == false)
+        else if (playerYIsMoving == false)
         {
-            //footsteps.stop(fade)
             speedParam = 0f;
         }
+        if (playerYIsMoving == true)
+        {
+            footstepsY.start();
+        }
+        else if (playerYIsMoving == false)
+        {
+            speedParamY = 0f;
+        }
+
     }
 
     void ParamChange()
     {
-        if(leftShiftPressed == true)
+        if(leftShiftPressed == true && playerXIsMoving == true)
         {
-            speedParam = 1f;
+            speedParam = .8f;
         }
-        else if (playerIsMoving)
+        else if (leftShiftPressed == false && playerXIsMoving == true)
         {
-            speedParam = 0.6f;
+            speedParam = 0.5f;
+        }
+        if (leftShiftPressed == true && playerYIsMoving == true)
+        {
+            speedParamY = .7f;
+        }
+        else if (leftShiftPressed == false && playerYIsMoving == true)
+        {
+            speedParamY = 0.4f;
         }
 
+
+
         footsteps.setParameterByName("speed", speedParam);
+        footstepsY.setParameterByName("speed2", speedParamY);
     }
 
     void OnDisable()
     {
         playerIsMoving = false;
+        playerXIsMoving = false;
+        playerYIsMoving = false;
+    }
+
+    void OnDestroy()
+    {
+        footsteps.setParameterByName("speed", 0.0f);
+        footstepsY.setParameterByName("speed2", 0.0f);
     }
 }

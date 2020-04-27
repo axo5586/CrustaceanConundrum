@@ -223,6 +223,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &177635258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 177635257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &177635259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177635258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &198111501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -322,6 +351,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &324826810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 324826809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &324826811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324826810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &497292724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -590,6 +648,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &771101955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 771101954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &771101956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771101955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &834846893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -635,6 +722,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &834846894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 834846893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &834846895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834846894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &846876608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1191730556289562, guid: 59eef0ec2ab579b4088cfde73dc146c4,
@@ -785,12 +901,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputSound: event:/Character/gravel-walk-param
   playerIsMoving: 0
+  playerXIsMoving: 0
+  playerYIsMoving: 0
   leftShiftPressed: 0
   secondsPassed: 0
   players:
   - {fileID: 1035095430}
   - {fileID: 198111502}
   speedParam: 0
+  speedParamY: 0
 --- !u!4 &944022022
 Transform:
   m_ObjectHideFlags: 0
@@ -850,6 +969,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1004468011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1004468010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1004468012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004468011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1035095429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1003,6 +1151,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1280936166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1280936165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280936167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280936166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1322854154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,6 +1394,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1490746366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1490746365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1490746367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490746366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1537422346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1191730556289562, guid: 59eef0ec2ab579b4088cfde73dc146c4,
@@ -1314,6 +1520,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1563820521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1563820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1563820522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563820521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1567566893 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114187794662073166, guid: 59eef0ec2ab579b4088cfde73dc146c4,
@@ -1670,6 +1905,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1740772931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1740772930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1740772932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740772931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1755596322 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1841156516392914, guid: f33444aaf0cd96b4fabc9f6c1539d552,
@@ -1767,6 +2031,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1757944917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757944916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1757944918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757944917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1814136985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1936,3 +2229,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af7e61c57f8b7649a6796d2c5ce6c54, type: 3}
+--- !u!1 &1963678283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 1963678282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1963678284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963678283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Interactables/wall-collision
+  PlayEvent: 9
+  StopEvent: 10
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

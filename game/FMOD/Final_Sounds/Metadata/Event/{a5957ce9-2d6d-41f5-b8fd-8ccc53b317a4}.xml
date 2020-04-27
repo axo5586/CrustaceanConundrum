@@ -66,8 +66,8 @@
 	<object class="MarkerTrack" id="{2a78586d-e5c3-40af-ae43-9b3776d70117}" />
 	<object class="GroupTrack" id="{fa6ba709-681e-4f65-80a0-c0bb186194fd}">
 		<relationship name="automationTracks">
-			<destination>{673ec922-b87b-4931-80ba-d02c77466157}</destination>
 			<destination>{f8d20c21-a0da-4a49-b63c-728b5f04d3d8}</destination>
+			<destination>{0ab70bc6-52cd-44c5-a275-a94d0161d7a2}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{4f49a3c6-452b-4516-b67e-61858816fb37}</destination>
@@ -107,14 +107,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ac39db9c-f630-4a87-a1c0-255cc21764c6}" />
-	<object class="AutomationTrack" id="{673ec922-b87b-4931-80ba-d02c77466157}">
-		<relationship name="automator">
-			<destination>{610aa4fb-6514-4fd1-960e-ef86b6e52cf0}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationTrack" id="{f8d20c21-a0da-4a49-b63c-728b5f04d3d8}">
 		<relationship name="automator">
 			<destination>{a1617890-1c3c-463f-91d8-4e47cdcd1b98}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{0ab70bc6-52cd-44c5-a275-a94d0161d7a2}">
+		<relationship name="automator">
+			<destination>{610aa4fb-6514-4fd1-960e-ef86b6e52cf0}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{4f49a3c6-452b-4516-b67e-61858816fb37}">
@@ -122,7 +122,7 @@
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>0.20000000000000001</value>
+			<value>0.23000000000000001</value>
 		</property>
 		<property name="delayType">
 			<value>0</value>
@@ -149,6 +149,12 @@
 		</relationship>
 	</object>
 	<object class="SoundScatterer" id="{006d131f-5a16-4f15-842b-c2ac9e7396cd}">
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<relationship name="sound">
 			<destination>{b3f302f5-ac98-4925-8d66-53774c40056f}</destination>
 		</relationship>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{d5de3526-cedf-4254-9d25-a895b3277286}">
+		<property name="name">
+			<value>seagull</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84bc5e76-65df-4fb2-a372-2a19fbcd8059}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c6071662-7d44-4df9-93de-8e5420b295d8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c6071662-7d44-4df9-93de-8e5420b295d8}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -1,5 +1,39 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9158949155100993040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-8987336055977429305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8916666969024947954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,6 +51,75 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-8911456353576375250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8860657862111924854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8760001745654378886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param-2/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8652531523314953709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235421786938567
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8584899718265722223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,6 +142,57 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3795
+--- !u!114 &-8497446040592771352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8267966854372285670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8175210302937467265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8017452637254820264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +271,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7576033176748846950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7510226300933112991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +358,46 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7044979186123087823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/wall-collision
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/wall-collision
+  guid: cd294559d1d8bc4cb518e0dfd82b5841
+  Banks:
+  - {fileID: -6668084580416363192}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 200
+--- !u!114 &-6900002653277832715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-6898570930504120848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +434,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6730327636393365129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param-2/speed2
+  m_EditorClassIdentifier: 
+  Name: speed2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6668084580416363192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235467764605468
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6587380586087334974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235457517308607
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6504623359632048994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,6 +505,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6493006569080649673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param-2/speed2
+  m_EditorClassIdentifier: 
+  Name: speed2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6320538906036866190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235462218810168
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6225953991460353584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,14 +555,16 @@ MonoBehaviour:
   Path: event:/Ambience/beach-waves
   guid: 663b90bac5e3234ca2cda17e138fe90e
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -6900002653277832715}
+  - {fileID: 8729499497640845779}
   MinDistance: 0
   MaxDistance: 0
-  Length: 25539
+  Length: 0
 --- !u!114 &-6120246200188486646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +603,7 @@ MonoBehaviour:
   Path: event:/UI/menu-click
   guid: ded1d26e1efec444bfa8b4347e03f0b1
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -326,7 +627,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5525869334503203987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,6 +657,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/gravel-walk/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5169282780490971059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
   m_EditorClassIdentifier: 
   Name: speed
   Min: 0
@@ -400,14 +718,14 @@ MonoBehaviour:
   Path: event:/Interactables/button-unactivated
   guid: 7b32a415c85d954a8f1e04d3efa53f1c
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 200
+  Length: 163
 --- !u!114 &-4835198113605959194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,7 +799,7 @@ MonoBehaviour:
   Path: event:/Interactables/gate-close
   guid: 3c35a2197f91414b8f093ca305b6b6ac
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -506,6 +824,23 @@ MonoBehaviour:
   lastModified: 637223825298884147
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-4278729743782889862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-4153231480115720980
 MonoBehaviour:
@@ -565,6 +900,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3556446842261305180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235461560594722
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3476051406300433121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,6 +935,23 @@ MonoBehaviour:
   lastModified: 637223400419550389
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-3445089423863224082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-3292327463666944621
 MonoBehaviour:
@@ -623,6 +993,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &-2790292458065040789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2674936597205760743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -638,6 +1025,24 @@ MonoBehaviour:
   Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637223825483330801
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2524602107693312513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235465979103785
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -660,6 +1065,40 @@ MonoBehaviour:
   FileSizes: []
   Exists: 0
 --- !u!114 &-2241189737947859543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1924681545937017418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-1711882381583152023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -751,6 +1190,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-962032057153933350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235420309167697
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-842505276206578681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,14 +1223,38 @@ MonoBehaviour:
   Path: event:/Interactables/button-activated
   guid: a498019f937deb45b1cc6e34e1ec91df
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 200
+  Length: 160
+--- !u!114 &-793483244563388492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/gravel-walk-param-2
+  m_EditorClassIdentifier: 
+  Path: event:/Character/gravel-walk-param-2
+  guid: 230636838e562b4888ff26a334b8d8ca
+  Banks:
+  - {fileID: -6668084580416363192}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6730327636393365129}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2300
 --- !u!114 &-761452763062957351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,7 +1272,7 @@ MonoBehaviour:
   lastModified: 637229425610543372
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-715521412356349125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,7 +1288,7 @@ MonoBehaviour:
   Path: event:/Interactables/gate-open
   guid: 683276ed4dad104794d5716e8a770c76
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -830,7 +1311,7 @@ MonoBehaviour:
   Path: event:/Ambience/background-music
   guid: 3f68c8188828f54e93e9391412b1695f
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -853,14 +1334,14 @@ MonoBehaviour:
   Path: event:/Interactables/level-complete
   guid: ae7aec39efc46a4195041c5fd1f620f2
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 500
+  Length: 1400
 --- !u!114 &-144150701326487513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +1374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8226104174938382396}
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   EditorEvents:
   - {fileID: 7035185549729475614}
   - {fileID: 4451247215503366620}
@@ -904,16 +1385,35 @@ MonoBehaviour:
   - {fileID: -842505276206578681}
   - {fileID: -216737866907991493}
   - {fileID: -6006081685542391642}
-  - {fileID: 3271490069013058353}
   - {fileID: -252452733065229732}
   - {fileID: 3253469206514034260}
-  EditorParameters: []
+  - {fileID: -793483244563388492}
+  - {fileID: -7044979186123087823}
+  EditorParameters:
+  - {fileID: 4412327869827284422}
   MasterBanks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   StringsBanks:
   - {fileID: 8226104174938382396}
-  stringsBankWriteTime: 637229425610603379
+  stringsBankWriteTime: 637235467764695488
   cacheVersion: 3
+--- !u!114 &185368433851566366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &207864274995915789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,6 +1427,57 @@ MonoBehaviour:
   m_Name: parameter:/gravel-walk-param/speed
   m_EditorClassIdentifier: 
   Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &223260660947774990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &295189550625601848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &311887179163612425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
   Min: 0
   Max: 1
   Default: 0
@@ -966,6 +1517,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &807932370981496222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &961643935139756146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &1079993618971211926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,6 +1573,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &1210474099091753359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &1445613795583114202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,6 +1608,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &1861111348939576716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1883540519217387763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235423249343277
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1994608036269044014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,6 +1660,23 @@ MonoBehaviour:
   lastModified: 637223422915788167
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &1997474793390550467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param-2/speed2
+  m_EditorClassIdentifier: 
+  Name: speed2
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &2212261403735693265
 MonoBehaviour:
@@ -1059,6 +1713,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2428846413323392460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2455864871088735729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2530911168383530698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,6 +1770,92 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &2534920384808335980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2741103715237397696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2771412008067791578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235467351370982
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3007897540996523010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3042141538075118858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3253469206514034260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,15 +1871,15 @@ MonoBehaviour:
   Path: event:/Character/gravel-walk-param
   guid: e97c95a56d2df541b8fd8ccc53b317a4
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5965639487359279739}
+  - {fileID: -1924681545937017418}
   MinDistance: 0
   MaxDistance: 0
-  Length: 200
+  Length: 230
 --- !u!114 &3271490069013058353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1120,8 +1894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Character/gravel-walk
   guid: b14c274532f5214b95d7adce38062d3e
-  Banks:
-  - {fileID: -761452763062957351}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1129,6 +1902,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &3316754857178749369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3501162122905053307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,6 +1972,57 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3835299914244967772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3872385966897462976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4065565390857562294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &4246717757627065990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,6 +2041,57 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4262450994023876115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4285655964476412267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4412327869827284422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: seagull
+  m_EditorClassIdentifier: 
+  Name: seagull
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &4451247215503366620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1215,7 +2107,7 @@ MonoBehaviour:
   Path: event:/UI/menu-hover
   guid: 2fe1391b0124d848b025a8f293b0fad5
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1246,6 +2138,59 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 200
+--- !u!114 &4810997116985168718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235458066197899
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4993754717985392540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/seagulls
+  m_EditorClassIdentifier: 
+  Name: seagulls
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &5111086966541890242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235182045870540
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5270177840222106019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,6 +2213,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 160
+--- !u!114 &5276290095284032310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5416138790935893130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1369,6 +2331,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 25539
+--- !u!114 &6062532466488268851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235185744289764
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6097228583810218651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,6 +2428,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &6624290300913693896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6908702568417756407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param-2/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7035185549729475614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,7 +2477,7 @@ MonoBehaviour:
   Path: event:/Character/move-object
   guid: 0a024ce29707094381900133fc9821ce
   Banks:
-  - {fileID: -761452763062957351}
+  - {fileID: -6668084580416363192}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1489,6 +2503,76 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7155424600946673453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235463726516725
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7317963918398146046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7464400543263463618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &8208501392096104304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Final_Sounds/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235181230494193
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8226104174938382396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,11 +2587,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Final_Sounds/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637229425610603379
+  lastModified: 637235467764695488
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1674
+    Value: 1912
   Exists: 1
 --- !u!114 &8294091963064455559
 MonoBehaviour:
@@ -1532,6 +2616,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 160
+--- !u!114 &8313660206077180531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8729499497640845779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &8756492227046140053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,3 +2691,54 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 100
+--- !u!114 &8843756164038696689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/beach-waves/waves
+  m_EditorClassIdentifier: 
+  Name: waves
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8854650446110078386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9087800294820660470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gravel-walk-param/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
