@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{bcab63de-114d-4d35-885e-ac7ff6c9be07}" />
 	<object class="GroupTrack" id="{a42374ad-964c-4069-a463-0ee5effe0f57}">
 		<relationship name="modules">
-			<destination>{8eab655e-e951-4e3a-8669-09bdadd613c1}</destination>
+			<destination>{14c29bcf-adea-44de-8838-e3d426cdd2ce}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{50766a07-c629-47f3-8716-386023ca1a72}</destination>
@@ -71,7 +71,7 @@
 	</object>
 	<object class="Timeline" id="{5b794d4f-2208-46c3-9b60-dec10b977a0c}">
 		<relationship name="modules">
-			<destination>{8eab655e-e951-4e3a-8669-09bdadd613c1}</destination>
+			<destination>{14c29bcf-adea-44de-8838-e3d426cdd2ce}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{55f712d6-c848-4ecc-bdee-43635ca26573}">
@@ -91,13 +91,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3ad0965d-4984-42a2-8cfb-1ec6084410c3}" />
-	<object class="SingleSound" id="{8eab655e-e951-4e3a-8669-09bdadd613c1}">
+	<object class="SingleSound" id="{14c29bcf-adea-44de-8838-e3d426cdd2ce}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
 			<value>0.10000000000000001</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{5e84b8a0-0882-47a7-ac14-4dd939460917}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{f5f109cf-f992-4b79-864f-2e969e6c8bc9}</destination>
 		</relationship>
@@ -126,6 +129,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{bd7ee093-7f81-43b7-aa0f-53913fe55b69}" />
 	<object class="MixerBusFader" id="{051867ed-9c78-43a7-8ad3-8bc9e72ed7b1}" />
+	<object class="ADSRModulator" id="{5e84b8a0-0882-47a7-ac14-4dd939460917}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="initialValue">
+			<value>-84</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
+		</property>
+		<property name="finalValue">
+			<value>-62</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{c720041f-1092-4dcf-ab5a-669969c12b08}">
 		<relationship name="effects">
 			<destination>{d284329b-f409-44f5-80dc-591dfabbb470}</destination>

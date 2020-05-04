@@ -136,20 +136,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 87578618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &140332650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,20 +303,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 238495740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &288774139 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -338,20 +326,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 288774139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &376784182
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,15 +373,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376784182}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/Ambience/beach-waves
-  PlayEvent: 1
-  StopEvent: 2
+  PlayEvent: 0
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -614,20 +596,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 469895039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &479312304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -643,20 +619,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 479312304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &493995501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -899,20 +869,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 599244056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &657571730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1026,20 +990,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 685116594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &749469240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -1055,20 +1013,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 749469240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &800203368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -1084,20 +1036,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 800203368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &844805777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1205,20 +1151,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 856973924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &875324558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -1234,20 +1174,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 875324558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &931837449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1407,20 +1341,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1037391222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &1084220106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1530,20 +1458,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1233314932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &1416346419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -1559,20 +1481,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1416346419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &1557349097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1845,20 +1761,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1863069712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &1865903507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1923,20 +1833,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939561612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!114 &1959443827 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114438548328969194, guid: 34ebadf23b5232040a246514251a117a,
@@ -1964,20 +1868,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1961406931}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1 &2065650192 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1135225700631512, guid: 6af7e61c57f8b7649a6796d2c5ce6c54,
@@ -1993,20 +1891,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2065650192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: b83b006e01b160e45803f5f3f25ec315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Interactables/wall-collision
-  PlayEvent: 9
-  StopEvent: 10
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  backgroundMusic: {fileID: 0}
+  footstepsScript: {fileID: 0}
+  playerIsMoving: 0
+  collidedBefore: 0
+  playedOnce: 0
 --- !u!1001 &2078322014
 PrefabInstance:
   m_ObjectHideFlags: 0

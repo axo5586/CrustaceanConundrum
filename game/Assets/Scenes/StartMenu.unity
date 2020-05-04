@@ -721,6 +721,7 @@ GameObject:
   - component: {fileID: 1433124595}
   - component: {fileID: 1433124597}
   - component: {fileID: 1433124594}
+  - component: {fileID: 1433124598}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -742,7 +743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/Ambience/beach-waves
-  PlayEvent: 1
+  PlayEvent: 16
   StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
@@ -821,6 +822,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: -1
+--- !u!114 &1433124598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433124593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20075e90613bbc4d9e3e76cbae636d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2012556162
 GameObject:
   m_ObjectHideFlags: 0

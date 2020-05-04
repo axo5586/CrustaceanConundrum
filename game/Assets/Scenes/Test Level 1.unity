@@ -165,15 +165,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187561773}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/Ambience/beach-waves
-  PlayEvent: 1
-  StopEvent: 2
+  PlayEvent: 0
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -209,12 +209,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputSound: event:/Character/gravel-walk-param
   playerIsMoving: 0
+  playerXIsMoving: 0
+  playerYIsMoving: 0
   leftShiftPressed: 0
   secondsPassed: 0
   players:
   - {fileID: 1035095430}
   - {fileID: 198111502}
   speedParam: 0
+  speedParamY: 0
 --- !u!1001 &198111501
 PrefabInstance:
   m_ObjectHideFlags: 0

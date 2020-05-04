@@ -124,6 +124,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{e9890659-bb6f-4071-ab6b-900e360730e1}" />
 	<object class="SingleSound" id="{7b7df129-4d46-4e96-92e0-d05bbfe3cd79}">
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4bfec644-7e41-4c2b-9627-c568c6c27493}</destination>
 		</relationship>
@@ -152,10 +155,10 @@
 	</object>
 	<object class="SoundScatterer" id="{6ad456e4-e9cc-4f93-b75c-8a2b03b8dd0a}">
 		<property name="minimumTimeBetweenSounds">
-			<value>1000</value>
+			<value>2000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>2000</value>
+			<value>3500</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
